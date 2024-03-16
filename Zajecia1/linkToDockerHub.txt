@@ -1,0 +1,1 @@
+https://hub.docker.com/repository/docker/dominikaglow/ebiznes-zadanie1/general
