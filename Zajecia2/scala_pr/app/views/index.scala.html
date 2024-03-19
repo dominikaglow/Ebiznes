@@ -1,0 +1,19 @@
+@(products: List[Product])
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Products</title>
+  </head>
+  <body>
+    <h1>Products</h1>
+
+      <!-- Display List of Products -->
+    <ul>
+      @for(product <- products) {
+        <li>Code: @product.code, Name: @product.name, Price: @product.price</li>
+      }
+    </ul>
+  </body>
+</html>
