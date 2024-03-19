@@ -25,4 +25,4 @@ Zadanie 1 Docker
 
 ❌ 5.0 
 
-Folder: https://github.com/dominikaglow/Ebiznes/tree/master/Zajecia2/scala_pr
+Folder: https://github.com/dominikaglow/Ebiznes/tree/master/Zajecia2
