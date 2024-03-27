@@ -41,3 +41,18 @@ Zadanie 3 Kotlin
 ❌ 5.0 
 
 Folder: https://github.com/dominikaglow/Ebiznes/tree/master/Zajecia3
+
+
+Zadanie 4 Go
+
+✅ 3.0 https://github.com/dominikaglow/Ebiznes/commit/6aeeca27e55f4fb00534d1a9c1fe5a374592d84b
+
+✅ 3.5 https://github.com/dominikaglow/Ebiznes/commit/d7e25e61475ade13320906d5a02f3dd78de4441c
+
+❌ 4.0 
+
+❌ 4.5 
+
+❌ 5.0 
+
+Folder: https://github.com/dominikaglow/Ebiznes/tree/master/Zajecia4
