@@ -56,3 +56,18 @@ Zadanie 4 Go
 ❌ 5.0 
 
 Folder: https://github.com/dominikaglow/Ebiznes/tree/master/Zajecia4
+
+
+Zadanie 4 Go
+
+✅ 3.0 https://github.com/dominikaglow/Ebiznes/commit/41dcc7745aa927afc01a88c65c0c1f86c870186a
+
+✅ 3.5 https://github.com/dominikaglow/Ebiznes/commit/2fac265e3dba78ca373cf3995ee6587cc240d192
+
+✅ 4.0 https://github.com/dominikaglow/Ebiznes/commit/2fac265e3dba78ca373cf3995ee6587cc240d192
+
+❌ 4.5 
+
+❌ 5.0 
+
+Folder: https://github.com/dominikaglow/Ebiznes/tree/master/Zajecia5
