@@ -2,8 +2,9 @@ import React, {useState} from 'react';
 import axios from 'axios';
 import './Payments.css';
 
-const Payments = () => {
+const Payments = ({location}) => {
     const [payment, setPayment] = useState({});
+    const [sum, setSum] = useState(0);
 
     const handlePayment = () => {
         console.log("Sending payment data:", payment);

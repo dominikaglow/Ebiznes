@@ -15,10 +15,11 @@ type Product struct {
 }
 
 type Payment struct {
-	CardNumber string `json:"cardNumber"`
-	NameOnCard string `json:"nameOnCard"`
-	ExpiryDate string `json:"expiryDate"`
-	CVV        string `json:"cvv"`
+	CardNumber  string  `json:"cardNumber"`
+	NameOnCard  string  `json:"nameOnCard"`
+	ExpiryDate  string  `json:"expiryDate"`
+	CVV         string  `json:"cvv"`
+	AmountToPay float64 `json:"amountToPay"`
 }
 
 func main() {
@@ -73,6 +74,7 @@ func handlePayments(w http.ResponseWriter, r *http.Request) {
 	fmt.Println("NameOnCard:", payment.NameOnCard)
 	fmt.Println("ExpiryDate:", payment.ExpiryDate)
 	fmt.Println("CVV:", payment.CVV)
+	fmt.Println("AmountToPay:", payment.AmountToPay)
 
 	w.Header().Set("Content-Type", "application/json")
 	json.NewEncoder(w).Encode(payment)

@@ -1,0 +1,37 @@
+.products-cont {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.products-cont h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.products-cont ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex; /* Ustawienie elementów w jednym rzędzie */
+  flex-direction: column; /* Ustawienie flexboxa w kolumnie */
+}
+
+.products-cont li {
+  margin-bottom: 20px;
+}
+
+.products-cont li button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+  width: 120px; /* Zmniejszamy szerokość przycisku */
+  text-align: center; /* Wyśrodkowanie tekstu w przycisku */
+}
+
+.products-cont li button:hover {
+  background-color: #0056b3;
+}
