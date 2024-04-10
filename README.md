@@ -58,7 +58,7 @@ Zadanie 4 Go
 Folder: https://github.com/dominikaglow/Ebiznes/tree/master/Zajecia4
 
 
-Zadanie 4 Go
+Zadanie 5 Frontend
 
 ✅ 3.0 https://github.com/dominikaglow/Ebiznes/commit/41dcc7745aa927afc01a88c65c0c1f86c870186a
 
