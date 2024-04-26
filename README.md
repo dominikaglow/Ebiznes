@@ -71,3 +71,18 @@ Zadanie 5 Frontend
 ❌ 5.0 
 
 Folder: https://github.com/dominikaglow/Ebiznes/tree/master/Zajecia5
+
+
+Zadanie 6 Testy
+
+✅ 3.0 https://github.com/dominikaglow/Projektowanie-obiektowe/commit/99f796de851d9994f08aa7c8481aeb1749bb8dab
+
+❌ 3.5 
+
+❌ 4.0 
+
+❌ 4.5 
+
+❌ 5.0 
+
+Folder: https://github.com/dominikaglow/Projektowanie-obiektowe/tree/main/Zajecia5
