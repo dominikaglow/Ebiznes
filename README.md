@@ -88,6 +88,24 @@ Zadanie 6 Testy
 Folder: https://github.com/dominikaglow/Projektowanie-obiektowe/tree/main/Zajecia5
 
 
+
+Zadanie 7 Sonar
+
+✅ 3.0 https://github.com/dominikaglow/Zadanie6_server/commit/2dc9a6e90c60818f9837e3b18feb04db66b5b94b
+
+✅ 3.5 https://github.com/dominikaglow/Zadanie6_server/commit/2dc9a6e90c60818f9837e3b18feb04db66b5b94b
+
+❌ 4.0 
+
+✅ 4.5 https://github.com/dominikaglow/Zadanie6_server/commit/2dc9a6e90c60818f9837e3b18feb04db66b5b94b
+
+✅ 5.0 https://github.com/dominikaglow/Zadanie6_server/commit/2dc9a6e90c60818f9837e3b18feb04db66b5b94b
+
+Repozytorium serwera: https://github.com/dominikaglow/Zadanie6_server
+Repozytorium klienta: https://github.com/dominikaglow/Zadanie6_client
+
+
+
 Zadanie 8 Oauth2
 
 ✅ 3.0 https://github.com/dominikaglow/Ebiznes/commit/91a812b04289c7da98275b5ad927f3f2e87ceeaa
