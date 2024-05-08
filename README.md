@@ -86,3 +86,18 @@ Zadanie 6 Testy
 ❌ 5.0 
 
 Folder: https://github.com/dominikaglow/Projektowanie-obiektowe/tree/main/Zajecia5
+
+
+Zadanie 8 Oauth2
+
+✅ 3.0 https://github.com/dominikaglow/Ebiznes/commit/91a812b04289c7da98275b5ad927f3f2e87ceeaa
+
+✅ 3.5 https://github.com/dominikaglow/Ebiznes/commit/eca4cfb119ee9a52aff67012a4d584437c01f304
+
+❌ 4.0 
+
+❌ 4.5 
+
+❌ 5.0 
+
+Folder: https://github.com/dominikaglow/Ebiznes/tree/master/Zajecia8
