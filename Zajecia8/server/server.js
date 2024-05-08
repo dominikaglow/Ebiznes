@@ -33,6 +33,10 @@ const userSchema = new mongoose.Schema({
 
 const User = mongoose.model('User', userSchema);
 
+app.get('/', (req, res) => {
+    res.send('Loggin and registration server');
+});
+
 app.post('/register', async (req, res) => {
     const {username, password} = req.body;
 
@@ -54,6 +58,27 @@ app.post('/register', async (req, res) => {
 
     } catch (error) {
         console.error("Error creating new user: ", error);
+        return res.status(500).send('Internal server error');
+    }
+});
+
+app.post('/login', async (req, res) => {
+    const { username, password } = req.body;
+
+    try {
+        const user = await User.findOne({ username });
+        if (!user) {
+            return res.status(404).send('User not found');
+        }
+
+        const passwordMatch = await bcrypt.compare(password, user.password);
+        if (!passwordMatch) {
+            return res.status(401).send('Invalid password');
+        }
+
+        return res.status(200).send('Login successful');
+    } catch (error) {
+        console.error("Error logging in: ", error);
         return res.status(500).send('Internal server error');
     }
 });
