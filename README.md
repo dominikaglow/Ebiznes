@@ -95,7 +95,7 @@ Zadanie 7 Sonar
 
 ✅ 3.5 https://github.com/dominikaglow/Zadanie6_server/commit/2dc9a6e90c60818f9837e3b18feb04db66b5b94b
 
-❌ 4.0 
+✅ 4.0 https://github.com/dominikaglow/Zadanie6_server/commit/0756fc750fa9c4f1e6d524c44ce68c0b08c292c7
 
 ✅ 4.5 https://github.com/dominikaglow/Zadanie6_server/commit/2dc9a6e90c60818f9837e3b18feb04db66b5b94b
 
@@ -112,7 +112,7 @@ Zadanie 8 Oauth2
 
 ✅ 3.5 https://github.com/dominikaglow/Ebiznes/commit/eca4cfb119ee9a52aff67012a4d584437c01f304
 
-❌ 4.0 
+✅ 4.0 https://github.com/dominikaglow/Ebiznes/commit/58ae66194b02ab6acfaaab66e5d36c5af28fdbd7
 
 ❌ 4.5 
 
