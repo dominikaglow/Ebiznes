@@ -1,29 +1,38 @@
-import React, { useState } from 'react';
-import axios from 'axios';
+import React, { useEffect } from 'react';
 
 function Login() {
-    const [username, setUsername] = useState('');
-    const [password, setPassword] = useState('');
-    const [status, setStatus] = useState('');
+    const [isLoggedIn, setIsLoggedIn] = React.useState(false);
 
-    const Login = async () => {
-        try {
-            const response = await axios.post('http://localhost:3000/login', { username, password });
-            console.log(response.data);
-            setStatus("Successfully logged in");
-        } catch (error) {
-            console.error("Error logging in: ", error);
-            setStatus("Invalid username or password");
+    useEffect(() => {
+        const urlParams = new URLSearchParams(window.location.search);
+        const token = urlParams.get('token');
+        if (token) {
+            localStorage.setItem('token', token);
+            setIsLoggedIn(true);
         }
+    }, []);
+
+    const handleLogin = () => {
+        window.location.href = 'http://localhost:3000/auth/google';
     };
+
+    const handleLogout = () => {
+        localStorage.removeItem('token');
+        setIsLoggedIn(false);
+        window.location.href = '/login';
+    }
 
     return (
         <div>
             <h2>Login</h2>
-            <input type="text" placeholder="Username" value={username} onChange={(e) => setUsername(e.target.value)} />
-            <input type="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} />
-            <button onClick={Login}>Login</button>
-            {status && <p>{status}</p>}
+            {isLoggedIn ? (
+                <div>
+                    <p>Logged in</p>
+                    <button onClick={handleLogout}>Logout</button>
+                </div>
+            ) : (
+                <button onClick={handleLogin}>Login with Google</button>
+            )}
         </div>
     );
 }
