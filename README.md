@@ -119,3 +119,17 @@ Zadanie 8 Oauth2
 ❌ 5.0 
 
 Folder: https://github.com/dominikaglow/Ebiznes/tree/master/Zajecia8
+
+Zadanie 9 ChatGPT bot
+
+✅ 3.0 https://github.com/dominikaglow/Ebiznes/commit/ffcc24730b83c7e260d276bfa774ee7ece6a7f1a
+
+❌ 3.5 
+
+❌ 4.0 
+
+❌ 4.5 
+
+❌ 5.0 
+
+Folder: https://github.com/dominikaglow/Ebiznes/tree/master/Zajecia9/chatBot
