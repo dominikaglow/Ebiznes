@@ -1,4 +1,6 @@
 
 
-https://github.com/dominikaglow/Ebiznes/assets/93057079/6ba223b0-ae74-44e3-b5fb-292d2f801d0a
+
+
+https://github.com/dominikaglow/Ebiznes/assets/93057079/77b29fa8-3768-4fef-8f35-916d6c2ca046
 
