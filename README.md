@@ -133,3 +133,19 @@ Zadanie 9 ChatGPT bot
 ❌ 5.0 
 
 Folder: https://github.com/dominikaglow/Ebiznes/tree/master/Zajecia9/chatBot
+
+
+Zadanie 10 Chmura/CI
+
+✅ 3.0 
+
+❌ 3.5 
+
+❌ 4.0 
+
+❌ 4.5 
+
+❌ 5.0 
+
+Repozytorium klienta: https://github.com/dominikaglow/cloudClient/
+Repozytorium serwera: https://github.com/dominikaglow/cloudServer/
