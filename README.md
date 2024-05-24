@@ -149,3 +149,4 @@ Zadanie 10 Chmura/CI
 
 Repozytorium klienta: https://github.com/dominikaglow/cloudClient/
 Repozytorium serwera: https://github.com/dominikaglow/cloudServer/
+demo: https://github.com/dominikaglow/Ebiznes/tree/master/Zajecia10/demos
